@@ -1,0 +1,31 @@
+{
+    "username":"username",
+    "password":"Password!",
+    "workspace":"terraform-cli-test",
+    "data": {
+        "client_id": {
+            "state" : "terraform",
+            "value" : "Perl-Harbor-change-client_id",
+            "sensitive": "false",
+            "hcl" : "false"
+        },
+        "client_secret": {
+            "state" : "terraform",
+            "value" : "Perl-Harbor-change-client_secret",
+            "sensitive": "false",
+            "hcl" : "false"
+        },
+        "ARM_SUBSCRIPTION_ID": {
+            "state" : "env",
+            "value" : "Perl-Harbor-change-ARM_SUBSCRIPTION_ID",
+            "sensitive": "false",
+            "hcl" : "false"
+        },
+        "ARM_TENANT_ID": {
+            "state" : "env",
+            "value" : "Perl-Harbor-change-ARM_TENANT_ID",
+            "sensitive": "false",
+            "hcl" : "false"
+        }
+    }
+}
